@@ -1,0 +1,11 @@
+pydantic
+jupyterlab
+ipykernel
+ipython
+numpy
+pandas
+scikit-learn
+seaborn
+matplotlib
+flask
+gunicorn
