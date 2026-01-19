@@ -2,8 +2,24 @@
 - This project aims to predict the popularity of songs by analyzing various audio features from the Spotify dataset. Using multiple machine learning algorithms, I built a predictive model to determine whether a song will become a "hit" based on metrics like danceability, energy, and acousticness.
 
 ## Dataset
-- Link: Kaggle -  [Spotify Audio Features](https://www.kaggle.com/datasets/tomigelo/spotify-audio-features)
-- SpotifyAudioFeaturesApril2019.csv
+- Link: Kaggle - [Spotify Audio Features](https://www.kaggle.com/datasets/tomigelo/spotify-audio-features)
+- File: `SpotifyAudioFeaturesApril2019.csv`
+
+### Download
+**Option 1: Using Kaggle CLI**
+```bash
+# Install kaggle CLI (if not installed)
+pip install kaggle
+
+# Download dataset (requires Kaggle API token)
+kaggle datasets download -d tomigelo/spotify-audio-features
+unzip spotify-audio-features.zip -d data/
+```
+
+**Option 2: Manual Download**
+1. Visit [Kaggle Dataset Page](https://www.kaggle.com/datasets/tomigelo/spotify-audio-features)
+2. Click "Download" button
+3. Extract and place `SpotifyAudioFeaturesApril2019.csv` in `data/` directory
 
 ## Install
 ### Basic Requirements
